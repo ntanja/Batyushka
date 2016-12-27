@@ -1,0 +1,376 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /********HEADER********/
+    .header-top ul {
+        float: none;
+        text-align: center;
+    }
+    /*****NAVIGATION*******/
+    .navbar-nav, .navbar-right{
+        margin-top: -5px;
+    }
+    .navbar-nav > li > a {
+        padding: 5px 5px 3px;
+    }
+    .navbar-brand > img {
+        max-width: 70%;
+        margin-top: 43px;
+    }
+    .dropdown-menu {
+        left: -42px !important;
+    }
+    /****************************INDEX PAGE**********************/
+    /*****section 'main-slide'*****/
+    .main-slide .kiril,
+    .about-kiril .kiril{
+        font-size: 13px;
+        text-align: left;
+        max-width: 470px;
+        padding: 0px 35px;
+        bottom: 27%;
+        left: 50%;
+        right: 8%;
+        top: 21%;    
+    }
+    .kiril h4{
+        font-size: 16px;
+        color: #3684c0;
+        margin: 25px auto 20px auto;
+    }
+    .kiril .button-panel{
+        margin: 10px auto 20px auto;
+    }
+    .gray-button, .gray-button:hover, .gray-button:focus{
+        padding: 6px 15px 5px 15px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .blue-button, .blue-button:hover, .blue-button:focus{
+        padding: 6px 15px 5px 15px;
+        font-size: 12px;
+        margin: 10px 0 10px 0px;
+        display: inline-block;
+    }
+    .main-slide .carousel-caption h1,.main-slide .carousel-caption h3{
+        display: block;
+    }
+    .main-slide .online{
+        padding-left: 7%;
+        padding-top: 20px;
+    }
+    .main-slide .online h3{
+        font-size: 16px;
+    }
+    .main-slide .online h1{
+        font-size: 26px;
+    }
+    .main-slide .online figure{
+        max-width: 192px;
+        max-height: 65px;
+        margin-bottom: 30px;
+    }
+    .online .appstore{
+        margin-top: 30px;
+    }
+    .carousel-control.right {
+        right: 15px;
+        width: 42px;
+    }
+    .carousel-control.left {
+        left: 15px;
+        width: 42px;
+    }
+    h3.under-slide{
+        font-size: 22px;
+        padding: 0;
+    }
+    /*****section 'search-panel'*****/
+    .search-panel .col-xs-2{
+        padding-left: 15px;
+    }
+    .search-panel input{
+        font-size: 110%;
+    }
+    /*****section 'feedback'*****/
+    #carousel-feedback .carousel-control{
+        top: 0px;
+    }
+    /*****section 'news'*****/
+    .news p.news-title {
+        padding: 15px 50px;
+    }
+    /*****section 'footer-top'*****/
+    .footer-top .row{
+        margin-left: -15px;
+        margin-right: 0px;
+    }
+    .footer-social{
+        padding-left: 60px;
+    }
+    .footer-social a{
+        display: block;
+        width: 48px;
+        height: 48px;
+        border: 1px solid #c3daec;
+    }
+    .footer-social a:hover{
+        border: 1px solid #fff;
+    }
+    /****section "footer-bottom"****/
+    .footer-bottom .rules{
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .footer-bottom .design{
+        text-align: right;
+    }
+    /*****MODAL*****/
+    .pay-modal .modal-dialog {
+        margin: 300px auto;
+        width: 450px;
+    }
+    .pay-modal .modal-header h4 {
+        padding: 20px 70px 0px 60px;
+        font-size: 18px;
+    }
+    /**************************** PAGE -CONTACTS- *******************/
+    .contacts h2{
+        font-size: 30px;
+    }
+    .contacts .form-group .col-xs-7,
+    .contacts .col-xs-3{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    /**************************** PAGE -ABOUT- *******************/
+    .abous-us{
+        padding: 20px;
+    }
+    .abous-us article{
+        padding: 20px 10px;
+    }
+    /********************* PAGE -FATHERS- ************************/
+    /****section 'fathers-view'****/
+    .subscribe a{
+        display: inline-block;
+        margin-top: 0;
+    }
+    .left15 {
+        margin-left: 15px;
+    }
+    .fathers-social-big img{
+        margin-top: -2px;
+        display: inline-block;
+    }
+    .subscribe{
+        text-align: right;
+    }
+    /********************* PAGE  -FATHERS_74-  ************************/
+    .fathers-74 .search-panel{
+        padding: 35px 20px 30px 20px;
+    }
+    .fathers-74 .search-panel .col-xs-4{
+        padding-left: 15px;
+    }
+    /****section 'father-questions'****/
+    .question{
+        padding: 25px 25px 5px 25px;
+    }
+    .question-text,
+    .answer-text{
+        padding-right: 20px;
+    }
+    .button-like .tooltip.top .tooltip-inner{
+        max-width: 350px;
+        margin-right: -50px;
+    }
+    .answer{
+        padding: 25px;
+    }
+    /********************PAGE -QUESTION-**********************/
+    /****section 'question-page'****/
+    .answer-search{
+        padding-top: 0;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /********HEADER********/
+    .header-top{
+        height: 39px;
+    }
+    .header-top p{
+        text-align: left;
+    }
+    .header-top ul {
+        float: right;
+        text-align: right;
+    }
+    /*****NAVIGATION*******/
+    .navbar-nav, .navbar-right{
+        margin-top: 0;
+    }
+    .navbar-nav > li > a {
+        padding: 5px 15px 3px;
+    }
+    .navbar-brand > img {
+        max-width: 100%;
+        display: block;
+        margin-top: 40px;
+    }
+    /****************************INDEX PAGE*******************/
+    /*****section 'main-slide'*****/   
+    .main-slide .kiril {
+        padding: 0px 35px;
+        bottom: 10%;
+        top: 15%;
+        line-height: 1.3em;
+    }
+    .kiril h4{
+        font-size: 16px;
+        margin: 25px auto 20px auto;
+        line-height: 1.5em;
+    }
+    .kiril p{
+        display: block;
+    }
+    .kiril .button-panel{
+        margin: -5px auto 20px auto;
+    }
+    .main-slide .online{
+        top: 0;
+        left: 0;
+        padding-left: 7%;
+        padding-top: 50px;
+        text-align: left;
+    }
+    .main-slide .online h3{
+        font-size: 24px;
+    }
+    .main-slide .online h1{
+        font-size: 36px;
+    }
+    .online .appstore{
+        margin-top: 60px;
+    }
+    /*****section 'footer-top'*****/
+    .footer-top .row{
+        margin-left: -15px;
+        margin-right: 0px;
+    }
+    .footer-social{
+        padding-left: 0px;
+    }
+    .footer-social a{
+        width: 57px;
+        height: 57px;
+        border: none;
+    }
+    /**************************** PAGE -ABOUT- *******************/
+    /****section 'about-kiril'****/
+    .about-kiril{
+        background: url("style-images/kiril2.jpg")no-repeat center center;
+        height: 622px;
+    }
+    .about-kiril img{
+        display: none;
+    }
+    .about-kiril .kiril{
+        bottom: 25%;
+    }
+    /*****section 'project'*****/
+    .project figure{
+        height: 281px;
+        width: 281px; 
+    }
+    .project .feo-project{
+        margin-top: 70px;
+    }
+    /*****section 'mentions'*****/
+    .mentions {
+        padding: 40px 0;
+    }
+    .mentions p{
+        padding: 15px 50px;
+    }
+    p.all-publications {
+        padding: 40px 0 20px;
+    }
+
+    /*********************-REVIEW- PAGE*************************/
+    .review .mentions p {
+        padding: 15px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /********HEADER********/    
+    .header-top ul{
+        line-height: 29px;
+    }
+    .header-top a{
+        width: 35px;
+    }
+    /*****NAVIGATION*******/
+    .navbar-brand{
+        margin-top: 0;
+    }
+    .navbar-brand > img{
+        max-width: 100%;
+        display: block;
+        margin-top: 0;
+    }
+    .navbar-right {
+        margin-right: -25px;
+    }
+    .navbar-nav, .navbar-right{
+        text-align: left;
+        margin-top: 13px;
+    }
+    .nav > li.blue-border{
+        display: block;
+    }
+    .dropdown-menu {
+        left: -32px !important;
+    }
+    /****************************INDEX PAGE*******************/
+    /*****section 'main-slide'*****/
+    .main-slide .kiril{
+        bottom: 27%;
+        top: 21%;    
+    }
+    .online .appstore{
+        margin-top: 110px;
+    }
+    /**************************** PAGE -ABOUT- *******************/
+    /****section 'about us'****/
+    .abous-us{
+        padding: 40px;
+    }
+    .abous-us article {
+        padding: 40px;
+        color: #fff;
+        margin-left: 83px;
+        margin-right: 8%;
+    }
+    /*****section 'about-kiril'*****/
+    .about-kiril .kiril{
+        top: 29%;
+        left: 57%;
+        right: 3%;
+        line-height: 1.3em;
+        max-width: 475px;
+        height: 255px;
+    }
+    /************************-REVIEW- PAGE***************************/
+    .review .mentions p {
+        padding: 15px 50px;
+    }
+    /**********************-FATHERS- PAGE***************************/
+    /****section 'fathers-view'****/
+    .block-fathers {
+        margin-right: -45px;
+    }
+}
